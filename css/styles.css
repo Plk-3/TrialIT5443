@@ -134,4 +134,54 @@ footer a {
 
 footer a:hover {
     color: #ffffff;
+
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #002f6c;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #004a99;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.eligible {
+    background-color: #e6f4ea;
+    border: 1px solid #4caf50;
+}
+
+.not-eligible {
+    background-color: #fcebea;
+    border: 1px solid #cc3333;
 }
