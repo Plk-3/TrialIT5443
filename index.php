@@ -19,6 +19,7 @@
                 <li><a href="labs.php">Facilities & Labs</a></li>
                 <li><a href="research.php">Research & Opportunities</a></li>
                 <li><a href="eligibility.php">Eligibility Evaluator</a></li>
+                <li><a href="application.php">Research Assistant Application</a></li>
             </ul>
         </nav>
     </header>
