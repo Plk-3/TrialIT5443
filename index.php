@@ -9,21 +9,16 @@
 
 <body>
 
-    <header>
-        <a href="https://ccse.kennesaw.edu/" target="_blank">
-            <img src="img/logo.png"
-                 alt="Kennesaw State University College of Computing and Software Engineering Logo"
-                 class="logo">
-        </a>
+    <?php include "includes/header.php"; ?>
 
         <h1>Robin and Doug Shore Innovation Center</h1>
 
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="labs.html">Facilities & Labs</a></li>
-                <li><a href="research.html">Research & Opportunities</a></li>
-                <li><a href="eligibility.html">Eligibility Evaluator</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="labs.php">Facilities & Labs</a></li>
+                <li><a href="research.php">Research & Opportunities</a></li>
+                <li><a href="eligibility.php">Eligibility Evaluator</a></li>
             </ul>
         </nav>
     </header>
@@ -83,19 +78,7 @@
 
     </main>
 
-    <footer>
-    <p>
-        This website is a student class project for IT 5443 Web Technologies at
-        Kennesaw State University. It is not an official KSU website.
-        For official information about the Interdisciplinary STEM building /
-        Robin and Doug Shore Innovation Center, please visit
-        <a href="https://www.kennesaw.edu/news/stories/2024/ksu-breaks-ground-interdisciplinary-stem-building.php"
-           target="_blank"
-           rel="noopener noreferrer">
-            KSU official news page about the Interdisciplinary STEM building
-        </a>.
-    </p>
-</footer>
+    <?php include "includes/footer.php"; ?>
 
 </body>
 
