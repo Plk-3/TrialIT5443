@@ -120,7 +120,7 @@ function evaluateEligibility() {
             "<h3>Congratulations, " + name + "!</h3>" +
             "<p>Your calculated average grade point is <strong>" + average.toFixed(2) + "</strong>.</p>" +
             "<p>You may continue to the Milestone 3 student assistant application form.</p>" +
-            "<p><a href=\"application.html\">Continue to Application Form</a></p>";
+            "<p><a href=\"application.php\">Continue to Application Form</a></p>";
     } else {
         result.classList.add("not-eligible");
         result.innerHTML =
