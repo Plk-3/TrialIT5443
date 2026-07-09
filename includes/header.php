@@ -13,7 +13,6 @@
             <li><a href="labs.html">Facilities & Labs</a></li>
             <li><a href="research.html">Research & Opportunities</a></li>
             <li><a href="eligibility.html">Eligibility Evaluator</a></li>
-            <li><a href="application.php">Research Assistant Application</a></li>
         </ul>
     </nav>
 </header>
