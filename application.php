@@ -38,7 +38,9 @@ Please complete the application below. All required fields must be completed bef
 
 <div class="form-group">
 
-<label for="name">Full Name</label>
+<label for="name">
+    Full Name <span class="required">*</span>
+</label>
 
 <input
 type="text"
@@ -50,7 +52,9 @@ name="name">
 
 <div class="form-group">
 
-<label for="email">Student Email</label>
+<label for="email">
+    Student Email <span class="required">*</span>
+</label>
 
 <input
 type="email"
@@ -62,7 +66,9 @@ name="email">
 
 <div class="form-group">
 
-<label>Student Level</label>
+<label>
+    Student Level <span class="required">*</span>
+</label>
 
 <input
 type="radio"
@@ -83,7 +89,9 @@ Graduate
 
 <div class="form-group">
 
-<label>Research Interests</label>
+<label>
+    Research Interests <span class="required">*</span>
+</label>
 
 <br>
 
@@ -127,9 +135,7 @@ Robotics
 <div class="form-group">
 
 <label for="experience">
-
-Programming Experience
-
+    Programming Experience <span class="required">*</span>
 </label>
 
 <select
@@ -152,9 +158,8 @@ name="experience">
 <div class="form-group">
 
 <label for="statement">
-
-Why would you like to become a research assistant?
-
+    Why would you like to become a research assistant?
+    <span class="required">*</span>
 </label>
 
 <textarea
