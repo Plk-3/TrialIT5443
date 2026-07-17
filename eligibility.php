@@ -29,9 +29,14 @@
         </section>
 
         <section>
-            <h2>Eligibility Form</h2>
+           <section>
+                <h2>Eligibility Form</h2>
 
-            <form id="eligibilityForm">
+                <p class="status-instruction">
+                    <strong>Step 1:</strong> Select your student status first to display the required courses.
+                </p>
+
+                <form id="eligibilityForm">
                 <div class="form-group">
                     <label for="studentName">Student Name</label>
                     <input type="text" id="studentName" name="studentName">
