@@ -203,3 +203,22 @@ button:hover {
     margin-bottom: 20px;
     font-size: 0.95rem;
 }
+
+.confirmation-actions {
+    margin-top: 25px;
+}
+
+.button-link {
+    display: inline-block;
+    background-color: #002f6c;
+    color: #ffffff;
+    padding: 11px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button-link:hover {
+    background-color: #004a99;
+    color: #ffffff;
+}
