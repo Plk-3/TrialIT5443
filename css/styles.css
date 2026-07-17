@@ -193,3 +193,13 @@ button:hover {
     margin-bottom: 20px;
     font-weight: 500;
 }
+
+.required {
+    color: #b30000;
+    font-weight: bold;
+}
+
+.required-note {
+    margin-bottom: 20px;
+    font-size: 0.95rem;
+}
