@@ -119,6 +119,10 @@ function cleanInput($data) {
                 </tr>
             </table>
 
+            <p class="confirmation-actions">
+                <a href="index.php" class="button-link">Return to Home</a>
+            </p>
+        
         <?php endif; ?>
     </section>
 </main>
